@@ -42,6 +42,7 @@ import notificacionMesseger from  './projects/notificacionMesseger.png'
 import dashboardReact from  './projects/dashboardReact.png'
 import galleryDjango from './projects/galleryDjango.png'
 import RandomPasswordGenerator from './projects/RandomPasswordGenerator.png'
+import starRating from './projects/starRating.png'
 
 export {
   logo,
@@ -87,5 +88,6 @@ export {
   notificacionMesseger,
   dashboardReact,
   galleryDjango,
-  RandomPasswordGenerator
+  RandomPasswordGenerator,
+  starRating
 };

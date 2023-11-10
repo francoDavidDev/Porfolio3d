@@ -38,7 +38,8 @@ import {
     notificacionMesseger,
     dashboardReact,
     galleryDjango,
-    RandomPasswordGenerator 
+    RandomPasswordGenerator,
+    starRating
   } from "../assets";
   
   export const navLinks = [
@@ -542,6 +543,31 @@ import {
       image: RandomPasswordGenerator,
       source_code_link: "https://github.com/francodavid666/RandomPasswordGenerator",
       source_code_link2: "https://randompasswordgenerator.onrender.com",
+      
+    },
+    ,{
+      
+      name: "Star Rating",
+      description:
+        "He creado un boton rating con estrellas",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image:starRating,
+      source_code_link: "https://github.com/francodavid666/starsRating",
+      source_code_link2: "https://starrating.onrender.com",
       
     }
     
