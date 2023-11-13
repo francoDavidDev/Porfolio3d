@@ -592,7 +592,7 @@ import {
       ],
       image:magicNavigateMenu,
       source_code_link: "https://github.com/francodavid666/magicNavigationMenu",
-      source_code_link2: "https://magicnavigationmenu.onrender.cosm",
+      source_code_link2: "https://magicnavigationmenu.onrender.com",
       
     }
     
