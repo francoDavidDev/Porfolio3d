@@ -39,7 +39,8 @@ import {
     dashboardReact,
     galleryDjango,
     RandomPasswordGenerator,
-    starRating
+    starRating,
+    magicNavigateMenu
   } from "../assets";
   
   export const navLinks = [
@@ -545,7 +546,7 @@ import {
       source_code_link2: "https://randompasswordgenerator.onrender.com",
       
     },
-    ,{
+    {
       
       name: "Star Rating",
       description:
@@ -568,6 +569,30 @@ import {
       image:starRating,
       source_code_link: "https://github.com/francodavid666/starsRating",
       source_code_link2: "https://starrating.onrender.com",
+      
+    }, {
+      
+      name: "Magic Navigate Menu",
+      description:
+        "He creado un menu flotador",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image:magicNavigateMenu,
+      source_code_link: "https://github.com/francodavid666/magicNavigationMenu",
+      source_code_link2: "https://magicnavigationmenu.onrender.com",
       
     }
     

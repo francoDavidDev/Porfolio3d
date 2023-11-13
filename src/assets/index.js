@@ -43,6 +43,7 @@ import dashboardReact from  './projects/dashboardReact.png'
 import galleryDjango from './projects/galleryDjango.png'
 import RandomPasswordGenerator from './projects/RandomPasswordGenerator.png'
 import starRating from './projects/starRating.png'
+import magicNavigateMenu from './projects/magicNavigateMenu.png'
 
 export {
   logo,
@@ -89,5 +90,6 @@ export {
   dashboardReact,
   galleryDjango,
   RandomPasswordGenerator,
-  starRating
+  starRating,
+  magicNavigateMenu
 };
