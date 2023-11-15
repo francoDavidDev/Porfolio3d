@@ -40,7 +40,8 @@ import {
     galleryDjango,
     RandomPasswordGenerator,
     starRating,
-    magicNavigateMenu
+    magicNavigateMenu,
+    realEstate
   } from "../assets";
   
   export const navLinks = [
@@ -306,6 +307,35 @@ import {
       image: dashboardReact ,
       source_code_link: "https://github.com/francodavid666/dashboardReact",
       source_code_link2: "https://dashboar-react.onrender.com",
+      
+    },
+    {
+      name: "Real State",
+      description:
+        "He desarrolado una Pagina web para Bienes Raices, el mismo esta hecho con React.js y conectado a una base de datos",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Chakra-ui",
+          color: "pink-text-gradient",
+          
+        },
+        {
+          name: "Rapid Api",
+          color: "red-text-gradient",
+        },
+       
+      ],
+      image: realEstate ,
+      source_code_link: "https://github.com/francoDavidDev/real-state-react-next.js",
+      source_code_link2: "https://real-state-react-next-js-c1tc.vercel.app",
       
     },
     {

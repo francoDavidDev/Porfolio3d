@@ -45,6 +45,8 @@ import RandomPasswordGenerator from './projects/RandomPasswordGenerator.png'
 import starRating from './projects/starRating.png'
 import magicNavigateMenu from './projects/magicNavigateMenu.png'
 
+import realEstate from './projects/realEstate.png'
+
 export {
   logo,
   backend,
@@ -91,5 +93,6 @@ export {
   galleryDjango,
   RandomPasswordGenerator,
   starRating,
-  magicNavigateMenu
+  magicNavigateMenu,
+  realEstate
 };
