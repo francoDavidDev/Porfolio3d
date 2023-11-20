@@ -46,6 +46,8 @@ import starRating from './projects/starRating.png'
 import magicNavigateMenu from './projects/magicNavigateMenu.png'
 
 import realEstate from './projects/realEstate.png'
+import taskRedux from './projects/taskRedux.png'
+
 
 export {
   logo,
@@ -94,5 +96,6 @@ export {
   RandomPasswordGenerator,
   starRating,
   magicNavigateMenu,
-  realEstate
+  realEstate,
+  taskRedux
 };

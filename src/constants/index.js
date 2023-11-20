@@ -41,7 +41,8 @@ import {
     RandomPasswordGenerator,
     starRating,
     magicNavigateMenu,
-    realEstate
+    realEstate,
+    taskRedux
   } from "../assets";
   
   export const navLinks = [
@@ -265,6 +266,30 @@ import {
       image: taskApi ,
       source_code_link: "https://github.com/francodavid666/TaskApp",
       source_code_link2: "https://tasksapi.up.railway.app",
+      
+    },
+    {
+      name: "CRUD React.js + Redux + Tailwind Css",
+      description:
+        "Desarrolle un crud para notas utilizando Redux para centralizar los estados",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux ",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "pink-text-gradient",
+        },
+      
+      ],
+      image: taskRedux ,
+      source_code_link: "https://github.com/francoDavidDev/reactt_redux_crud",
+      source_code_link2: "https://reactreduxcrud-fhl5wb33p-francodaviddevs-projects.vercel.app",
       
     },
     {
