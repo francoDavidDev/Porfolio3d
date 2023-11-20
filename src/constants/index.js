@@ -289,7 +289,7 @@ import {
       ],
       image: taskRedux ,
       source_code_link: "https://github.com/francoDavidDev/reactt_redux_crud",
-      source_code_link2: "https://reactreduxcrud-fhl5wb33p-francodaviddevs-projects.vercel.app",
+      source_code_link2: "https://reactreduxcrud.vercel.app",
       
     },
     {
