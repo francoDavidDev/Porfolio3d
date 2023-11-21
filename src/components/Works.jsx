@@ -12,7 +12,7 @@ import { a } from 'maath/dist/objectSpread2-284232a6.esm'
 const ProjectCard=({index,name,description,tags,image,source_code_link,source_code_link2})=>{
 return(
   <motion.div
-  variants={fadeIn('up','spring', index * 0.5, 0.75)}>
+  /*variants={fadeIn('up','spring', index * 0.5, 0.75)}*/>
   <Tilt
   option={{
     max:45,
@@ -65,7 +65,7 @@ return(
 const Works = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div>
     <p className={styles.sectionSubText}>
       Mi trabajo
       </p>
@@ -77,7 +77,7 @@ const Works = () => {
 
   <div className='w-full flex'>
     <motion.p
-    variants={fadeIn('','',0.1,1)}
+   /* variants={fadeIn('','',0.1,1)}*/
     className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
        Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo en el mundo real. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. <p className='font-bold'>Podes ENTRAR a mi Github y hacer click en el ENLACE de las paginas para verlas en el SERVIDOR.</p> 
