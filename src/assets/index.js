@@ -47,9 +47,13 @@ import magicNavigateMenu from './projects/magicNavigateMenu.png'
 
 import realEstate from './projects/realEstate.png'
 import taskRedux from './projects/taskRedux.png'
+import nikeShop from './projects/nikeShop.png'
+import coffeeShop from './projects/coffeeShop.png'
 
 
 export {
+  nikeShop,
+  coffeeShop,
   logo,
   backend,
   creator,
