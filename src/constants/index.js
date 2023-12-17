@@ -44,7 +44,8 @@ import {
     realEstate,
     taskRedux,
     coffeeShop,
-    nikeShop
+    nikeShop,
+    dashboardRedux
   } from "../assets";
   
   export const navLinks = [
@@ -203,6 +204,41 @@ import {
   ];
   
   const projects = [
+    {
+      name: "¡¡ DASHBOARD FULLSTACK MERN !!",
+      description:
+        "Dasboard fullstack con estados centralizados, el backk y el front se desarrolladon y se desplegaron por partes separadas.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mui",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: dashboardRedux ,
+      source_code_link: "https://github.com/francoDavidDev/MERN_DASHBOARD",
+      source_code_link2: "https://mern-dashboard-drab.vercel.app/",
+    },
+    
     {
       name: "Ecommerce con Django/Js",
       description:

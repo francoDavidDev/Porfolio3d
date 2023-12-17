@@ -49,6 +49,7 @@ import realEstate from './projects/realEstate.png'
 import taskRedux from './projects/taskRedux.png'
 import nikeShop from './projects/nikeShop.png'
 import coffeeShop from './projects/coffeeShop.png'
+import dashboardRedux from './projects/dashboardRedux.png'
 
 
 export {
@@ -101,5 +102,6 @@ export {
   starRating,
   magicNavigateMenu,
   realEstate,
-  taskRedux
+  taskRedux,
+  dashboardRedux
 };
