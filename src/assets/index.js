@@ -51,6 +51,13 @@ import nikeShop from './projects/nikeShop.png'
 import coffeeShop from './projects/coffeeShop.png'
 import dashboardRedux from './projects/dashboardRedux.png'
 
+import menuCircle from './projects/menu-circle.png'
+import menuCard from './projects/menu-card.png'
+import menuImage from './projects/menu-image.png'
+
+
+  
+
 
 export {
   nikeShop,
@@ -103,5 +110,8 @@ export {
   magicNavigateMenu,
   realEstate,
   taskRedux,
-  dashboardRedux
+  dashboardRedux,
+  menuCircle,
+  menuCard,
+  menuImage
 };

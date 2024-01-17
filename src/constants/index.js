@@ -45,7 +45,10 @@ import {
     taskRedux,
     coffeeShop,
     nikeShop,
-    dashboardRedux
+    dashboardRedux,
+    menuCircle,
+    menuCard,
+    menuImage
   } from "../assets";
   
   export const navLinks = [
@@ -282,96 +285,7 @@ import {
       source_code_link: "https://github.com/francodavid666/galleryPhotoDjango",
       source_code_link2: "https://galleryphotodjango.up.railway.app",
     },
-   {
-      name: "CRUD con Django Rest Framework y React.js",
-      description:
-        "Cree una aplicacion para que se pueda comprar faces y productos para una cafeteria, lo diseñe utilizando css, html, js y django",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Django rest framework",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind css",
-          color: "pink-text-gradient",
-        },
-      
-      ],
-      image: taskApi ,
-      source_code_link: "https://github.com/francodavid666/TaskApp",
-      source_code_link2: "https://tasksapi.up.railway.app",
-      
-    },
-    {
-      name: "CRUD React.js + Redux + Tailwind Css",
-      description:
-        "Desarrolle un crud para notas utilizando Redux para centralizar los estados",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux ",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind Css",
-          color: "pink-text-gradient",
-        },
-      
-      ],
-      image: taskRedux ,
-      source_code_link: "https://github.com/francoDavidDev/reactt_redux_crud",
-      source_code_link2: "https://reactreduxcrud.vercel.app",
-      
-    },
-    {
-      name: "CRUD con React.js y Django",
-      description:
-        "Cree  un bloc de notas utilizando Djando-rest-framework y react.js para el front.",
-      tags: [
-        {
-          name: "React/js",
-          color: "blue-text-gradient",
-        },
-      
-        {
-          name: "Django",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bloc,
-      source_code_link: "https://github.com/francodavid666/notesApp",
-    },
-    {
-      name: "Enterprice Admin Dashboard ",
-      description:
-        "Front end Dashboard enterprise full react.js. Usando libreria 'Syncfusion' y Tailwind Css",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind Css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Syncfusion",
-          color: "pink-text-gradient",
-        },
-       
-      ],
-      image: dashboardReact ,
-      source_code_link: "https://github.com/francodavid666/dashboardReact",
-      source_code_link2: "https://dashboar-react.onrender.com",
-      
-    },
+ 
     {
       name: "Real State",
       description:
@@ -473,7 +387,180 @@ import {
       source_code_link2: "https://coffee-shop-1-topaz.vercel.app/",
       
     },
-    ,
+    {
+      name: "Coffee Menu #1",
+      description:
+        "Menu web animado Circle",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: menuCircle ,
+      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
+      source_code_link2: "https://menu-coffee-circle.vercel.app/",
+      
+    },
+    {
+      name: "Coffee Menu #2",
+      description:
+        "Menu web animado Image",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: menuImage ,
+      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
+      source_code_link2: "https://menu-coffee-circle.vercel.app/",
+      
+    },
+    {
+      name: "Coffee Menu #3",
+      description:
+        "Menu web animado Card´s",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: menuCard ,
+      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
+      source_code_link2: "https://menu-coffee-circle.vercel.app/",
+      
+    },
+    {
+      name: "CRUD con Django Rest Framework y React.js",
+      description:
+        "Cree una aplicacion para que se pueda comprar faces y productos para una cafeteria, lo diseñe utilizando css, html, js y django",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Django rest framework",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+      
+      ],
+      image: taskApi ,
+      source_code_link: "https://github.com/francodavid666/TaskApp",
+      source_code_link2: "https://tasksapi.up.railway.app",
+      
+    },
+    {
+      name: "CRUD React.js + Redux + Tailwind Css",
+      description:
+        "Desarrolle un crud para notas utilizando Redux para centralizar los estados",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux ",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "pink-text-gradient",
+        },
+      
+      ],
+      image: taskRedux ,
+      source_code_link: "https://github.com/francoDavidDev/reactt_redux_crud",
+      source_code_link2: "https://reactreduxcrud.vercel.app",
+      
+    },
+    {
+      name: "CRUD con React.js y Django",
+      description:
+        "Cree  un bloc de notas utilizando Djando-rest-framework y react.js para el front.",
+      tags: [
+        {
+          name: "React/js",
+          color: "blue-text-gradient",
+        },
+      
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bloc,
+      source_code_link: "https://github.com/francodavid666/notesApp",
+    },
+    {
+      name: "Enterprice Admin Dashboard ",
+      description:
+        "Front end Dashboard enterprise full react.js. Usando libreria 'Syncfusion' y Tailwind Css",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Syncfusion",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: dashboardReact ,
+      source_code_link: "https://github.com/francodavid666/dashboardReact",
+      source_code_link2: "https://dashboar-react.onrender.com",
+      
+    },
     {
       name: "Travel React.js/Next.js ",
       description:
