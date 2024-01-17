@@ -439,8 +439,8 @@ import {
        
       ],
       image: menuImage ,
-      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
-      source_code_link2: "https://menu-coffee-circle.vercel.app/",
+      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE",
+      source_code_link2: "https://menu-coffee-six.vercel.app/",
       
     },
     {
@@ -467,8 +467,8 @@ import {
        
       ],
       image: menuCard ,
-      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
-      source_code_link2: "https://menu-coffee-circle.vercel.app/",
+      source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CARD",
+      source_code_link2: "https://menu-coffee-card.vercel.app/",
       
     },
     {
