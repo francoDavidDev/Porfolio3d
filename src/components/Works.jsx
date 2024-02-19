@@ -12,16 +12,19 @@ import { a } from 'maath/dist/objectSpread2-284232a6.esm'
 const ProjectCard=({index,name,description,tags,image,source_code_link,source_code_link2})=>{
 return(
   <motion.div
+  
   /*variants={fadeIn('up','spring', index * 0.5, 0.75)}*/>
   <Tilt
+ 
   option={{
     max:45,
     scale:1,
     speed:450
   }}
   className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+ 
   >
-    <div className='relative w-full h-[230px]'>
+    <div className='relative w-full h-[230px]'  id='works'  >
       <img src={image} 
       alt={name}
       className='w-full h-full object-cover rounded-2xl'
@@ -64,9 +67,10 @@ return(
 
 const Works = () => {
   return (
-    <>
+    <div id='works' className='pt-10'>
     <motion.div>
-    <p className={styles.sectionSubText}>
+      <div className='pt-10' />
+    <p className={styles.sectionSubText} >
       Mi trabajo
       </p>
       <h2 className={styles.sectionHeadText}>
@@ -92,7 +96,7 @@ const Works = () => {
       
     ))}
   </div>
-  </>
+  </div>
   )
 }
 

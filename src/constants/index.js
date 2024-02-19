@@ -55,14 +55,17 @@ import {
     {
       id: "Acerca de mi",
       title: "Acerca de mi",
+      path:'#about'
     },
     {
       id: "Trabajos",
       title: "Trabajos",
+      path:'#works'
     },
     {
       id: "Contacto",
       title: "Contacto",
+      path:'#contact'
     },
   ];
   
