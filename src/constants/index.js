@@ -48,7 +48,8 @@ import {
     dashboardRedux,
     menuCircle,
     menuCard,
-    menuImage
+    menuImage,
+    youtubeClone
   } from "../assets";
   
   export const navLinks = [
@@ -243,6 +244,37 @@ import {
       image: dashboardRedux ,
       source_code_link: "https://github.com/francoDavidDev/MERN_DASHBOARD",
       source_code_link2: "https://mern-dashboard-drab.vercel.app/",
+    },
+    {
+      name: "¡¡ YOUTUBE CLONE !!",
+      description:
+        "Realize clon de youtube, aqui de puede acceder al canal del creador, mirar sus videos como tambien buscar el video que tu quieras",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React-Player",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RapidApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mui",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: youtubeClone ,
+      source_code_link: "https://github.com/francoDavidDev/youtube-clone",
+      source_code_link2: "https://youtube-clone-smoky-two.vercel.app/",
     },
     
     {

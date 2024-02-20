@@ -55,6 +55,7 @@ import menuCircle from './projects/menu-circle.png'
 import menuCard from './projects/menu-card.png'
 import menuImage from './projects/menu-image.png'
 
+import youtubeClone from './projects/youtubeClone.png'
 
   
 
@@ -113,5 +114,6 @@ export {
   dashboardRedux,
   menuCircle,
   menuCard,
-  menuImage
+  menuImage,
+  youtubeClone
 };
