@@ -49,7 +49,8 @@ import {
     menuCircle,
     menuCard,
     menuImage,
-    youtubeClone
+    youtubeClone,
+    foodsPage
   } from "../assets";
   
   export const navLinks = [
@@ -372,6 +373,30 @@ import {
       image: starkeFit ,
       source_code_link: "https://github.com/francodavid666/starkeOficial",
       source_code_link2: "https://starkeweb.onrender.com",
+      
+    },
+    {
+      name: "Foods Page ",
+      description:
+        "Aplicacion creada con Reac.js utilizando tailwind css",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React/icons",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: foodsPage ,
+      source_code_link: "https://github.com/francoDavidDev/RESTAURANT_PAGE",
+      source_code_link2: "https://restaurant-page-two-xi.vercel.app/",
       
     },
     {

@@ -56,6 +56,7 @@ import menuCard from './projects/menu-card.png'
 import menuImage from './projects/menu-image.png'
 
 import youtubeClone from './projects/youtubeClone.png'
+import foodsPage from './projects/foodsPage.png'
 
   
 
@@ -115,5 +116,6 @@ export {
   menuCircle,
   menuCard,
   menuImage,
-  youtubeClone
+  youtubeClone,
+  foodsPage
 };
