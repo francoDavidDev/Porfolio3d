@@ -50,7 +50,8 @@ import {
     menuCard,
     menuImage,
     youtubeClone,
-    foodsPage
+    foodsPage,
+    travelWebReact
   } from "../assets";
   
   export const navLinks = [
@@ -421,6 +422,30 @@ import {
       image: nikeShop ,
       source_code_link: "https://github.com/francoDavidDev/NikeWeb",
       source_code_link2: "https://nike-web-ten.vercel.app/",
+      
+    },
+    {
+      name: "Travel web #2",
+      description:
+        "Web page desarrollada con Tailwind Css, Vite y React.js",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: travelWebReact ,
+      source_code_link: "https://github.com/francoDavidDev/ARGENVIAJES_TRAVEL",
+      source_code_link2: "https://argenviajes.vercel.app/",
       
     },
     {

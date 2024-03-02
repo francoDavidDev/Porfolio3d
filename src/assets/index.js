@@ -58,6 +58,8 @@ import menuImage from './projects/menu-image.png'
 import youtubeClone from './projects/youtubeClone.png'
 import foodsPage from './projects/foodsPage.png'
 
+import travelWebReact from './projects/travelWebReact.png'
+
   
 
 
@@ -117,5 +119,6 @@ export {
   menuCard,
   menuImage,
   youtubeClone,
-  foodsPage
+  foodsPage,
+  travelWebReact
 };
