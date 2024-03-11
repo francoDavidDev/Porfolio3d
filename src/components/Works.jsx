@@ -9,7 +9,7 @@ import { fadeIn,textVariant } from '../utils/motion'
 import { a } from 'maath/dist/objectSpread2-284232a6.esm'
 
 
-const ProjectCard=({index,name,description,tags,image,source_code_link,source_code_link2})=>{
+const ProjectCard=({gif,ndex,name,description,tags,image,source_code_link,source_code_link2})=>{
 return(
   <motion.div
   
@@ -25,9 +25,12 @@ return(
  
   >
     <div className='relative w-full h-[230px]'  id='works'  >
-      <img src={image} 
+      <img src={(
+        (gif ? gif: image)
+      )} 
       alt={name}
       className='w-full h-full object-cover rounded-2xl'
+      onHo
       />
 
       <div className='absolute inset-0 flex justify-end mt-4  m-3 card-img_hover'>

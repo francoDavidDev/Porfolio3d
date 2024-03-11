@@ -51,7 +51,34 @@ import {
     menuImage,
     youtubeClone,
     foodsPage,
-    travelWebReact
+    travelWebReact,
+    agenciaWeb,
+    photographyWeb,
+
+    //gifs
+    photographyWebGif,
+  cardProductJsGif,
+  coffeeShopGif,
+  dashboardReactGif,
+  dashboardReduxGif,
+  dragDropJsGif,
+  foodsPageGif,
+  galleryDjangoGif,
+  magicNavigateMenuGif,
+  menuCircleGif,
+  nikeShopGif,
+  notificacionMessegerGif,
+  passwordValidationGif,
+  searchBoxGif,
+  starkeFitGif,
+  starRatingGif,
+  taskApiGif,
+  taskReduxGif,
+  travelReactGif,
+  travelWebGif,
+  travelWebReactGif,
+  youtubeCloneGif,
+  realEstateGif,
   } from "../assets";
   
   export const navLinks = [
@@ -246,6 +273,7 @@ import {
       image: dashboardRedux ,
       source_code_link: "https://github.com/francoDavidDev/MERN_DASHBOARD",
       source_code_link2: "https://mern-dashboard-drab.vercel.app/",
+      gif:dashboardReduxGif
     },
     {
       name: "¡¡ YOUTUBE CLONE !!",
@@ -277,6 +305,7 @@ import {
       image: youtubeClone ,
       source_code_link: "https://github.com/francoDavidDev/youtube-clone",
       source_code_link2: "https://youtube-clone-smoky-two.vercel.app/",
+      gif:youtubeCloneGif
     },
     
     {
@@ -321,6 +350,7 @@ import {
       image: galleryDjango ,
       source_code_link: "https://github.com/francodavid666/galleryPhotoDjango",
       source_code_link2: "https://galleryphotodjango.up.railway.app",
+      gif:galleryDjangoGif
     },
  
     {
@@ -350,7 +380,7 @@ import {
       image: realEstate ,
       source_code_link: "https://github.com/francoDavidDev/real-state-react-next.js",
       source_code_link2: "https://real-state-react-next-js-c1tc.vercel.app",
-      
+      gif:realEstateGif
     },
     {
       name: "Starke fitness WebPage ",
@@ -374,6 +404,55 @@ import {
       image: starkeFit ,
       source_code_link: "https://github.com/francodavid666/starkeOficial",
       source_code_link2: "https://starkeweb.onrender.com",
+      gif:starkeFitGif
+    },
+    {
+      name: "Agencia Digital",
+      description:
+        "Aplicacion creada con Reac.js utilizando tailwind css + React Typed ",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Typed",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: agenciaWeb ,
+      source_code_link: "https://github.com/francoDavidDev/AgenciaWeb",
+      source_code_link2: "https://agencia-web-green.vercel.app/",
+      gif:''
+    },
+    {
+      name: "Photography Web",
+      description:
+        "Aplicacion creada con Reac.js utilizando tailwind css + Framer Motion",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: photographyWeb ,
+      source_code_link: "https://vercel.com/francodaviddevs-projects/photography-web",
+      source_code_link2: "https://photography-web-five.vercel.app/",
+      gif:photographyWebGif,
       
     },
     {
@@ -398,7 +477,7 @@ import {
       image: foodsPage ,
       source_code_link: "https://github.com/francoDavidDev/RESTAURANT_PAGE",
       source_code_link2: "https://restaurant-page-two-xi.vercel.app/",
-      
+      gif:foodsPageGif
     },
     {
       name: "Nike Shop ",
@@ -422,7 +501,7 @@ import {
       image: nikeShop ,
       source_code_link: "https://github.com/francoDavidDev/NikeWeb",
       source_code_link2: "https://nike-web-ten.vercel.app/",
-      
+      gif:nikeShopGif
     },
     {
       name: "Travel web #2",
@@ -446,7 +525,7 @@ import {
       image: travelWebReact ,
       source_code_link: "https://github.com/francoDavidDev/ARGENVIAJES_TRAVEL",
       source_code_link2: "https://argenviajes.vercel.app/",
-      
+      gif:travelWebReactGif
     },
     {
       name: "Coffee Shop ",
@@ -470,7 +549,7 @@ import {
       image: coffeeShop ,
       source_code_link: "https://github.com/francoDavidDev/CoffeeShop-1",
       source_code_link2: "https://coffee-shop-1-topaz.vercel.app/",
-      
+      gif:coffeeShopGif
     },
     {
       name: "Coffee Menu #1",
@@ -498,7 +577,7 @@ import {
       image: menuCircle ,
       source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CIRCLE",
       source_code_link2: "https://menu-coffee-circle.vercel.app/",
-      
+      gif:menuCircleGif
     },
     {
       name: "Coffee Menu #2",
@@ -526,7 +605,7 @@ import {
       image: menuImage ,
       source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE",
       source_code_link2: "https://menu-coffee-six.vercel.app/",
-      
+      gif:''
     },
     {
       name: "Coffee Menu #3",
@@ -554,7 +633,7 @@ import {
       image: menuCard ,
       source_code_link: "https://github.com/francoDavidDev/MENU-COFFEE-CARD",
       source_code_link2: "https://menu-coffee-card.vercel.app/",
-      
+      gif:''
     },
     {
       name: "CRUD con Django Rest Framework y React.js",
@@ -578,7 +657,7 @@ import {
       image: taskApi ,
       source_code_link: "https://github.com/francodavid666/TaskApp",
       source_code_link2: "https://tasksapi.up.railway.app",
-      
+      gif:taskApiGif
     },
     {
       name: "CRUD React.js + Redux + Tailwind Css",
@@ -602,7 +681,7 @@ import {
       image: taskRedux ,
       source_code_link: "https://github.com/francoDavidDev/reactt_redux_crud",
       source_code_link2: "https://reactreduxcrud.vercel.app",
-      
+      gif:taskReduxGif
     },
     {
       name: "CRUD con React.js y Django",
@@ -644,7 +723,7 @@ import {
       image: dashboardReact ,
       source_code_link: "https://github.com/francodavid666/dashboardReact",
       source_code_link2: "https://dashboar-react.onrender.com",
-      
+      gif:dashboardReactGif
     },
     {
       name: "Travel React.js/Next.js ",
@@ -668,7 +747,7 @@ import {
       image: travelReact ,
       source_code_link: "https://github.com/francodavid666/TravelReactNext.js",
       source_code_link2: "https://travel-react-next-js.vercel.app",
-      
+      gif:travelReactGif
     },{
       
       name: "Travel Web",
@@ -688,7 +767,7 @@ import {
       image: travelWeb,
       source_code_link: "https://github.com/francodavid666/travelWeb",
       source_code_link2: "https://travelweb-cz5z.onrender.com",
-      
+      gif:travelWebGif
     },{
       
       name: "Targeta de producto",
@@ -712,7 +791,7 @@ import {
       image: cardProductJs,
       source_code_link: "https://github.com/francodavid666/cardProductJs",
       source_code_link2: "https://cardproduct.onrender.com",
-      
+      gif:cardProductJsGif
     },{
       
       name: "Like con doble click Corazon",
@@ -736,7 +815,7 @@ import {
       image: DoubleClickHeart,
       source_code_link: "https://github.com/francodavid666/DoubleClickHeart",
       source_code_link2: "https://doubleclickheart.onrender.com",
-      
+      gif:''
     },
     {
       
@@ -761,7 +840,7 @@ import {
       image: dragDropJs,
       source_code_link: "https://github.com/francodavid666/Drag-DropJS",
       source_code_link2: "https://dragdropjs.onrender.com",
-      
+      gif:dragDropJsGif
     },{
       
       name: "Validacion de Contraseña ",
@@ -785,7 +864,7 @@ import {
       image: passwordValidation,
       source_code_link: "https://github.com/francodavid666/passwordValidation",
       source_code_link2: "https://passwordvalidation.onrender.com",
-      
+      gif:passwordValidationGif
     },{
       
       name: "Buscador animado ",
@@ -809,7 +888,7 @@ import {
       image: searchBox,
       source_code_link: "https://github.com/francodavid666/searchBox",
       source_code_link2: "https://searchbox-sjw6.onrender.com",
-      
+      gif:searchBoxGif
     },{
       
       name: "Notification Messenger ",
@@ -833,7 +912,7 @@ import {
       image: notificacionMesseger,
       source_code_link: "https://github.com/francodavid666/NotificationMessenger",
       source_code_link2: "https://notificationmessenger.onrender.com",
-      
+      gif:notificacionMessegerGif
     },{
       
       name: "Random Password Generator",
@@ -857,7 +936,7 @@ import {
       image: RandomPasswordGenerator,
       source_code_link: "https://github.com/francodavid666/RandomPasswordGenerator",
       source_code_link2: "https://randompasswordgenerator.onrender.com",
-      
+      gif:''
     },
     {
       
@@ -882,7 +961,7 @@ import {
       image:starRating,
       source_code_link: "https://github.com/francodavid666/starsRating",
       source_code_link2: "https://starrating.onrender.com",
-      
+      gif:starRatingGif
     }, {
       
       name: "Magic Navigate Menu",
@@ -906,7 +985,7 @@ import {
       image:magicNavigateMenu,
       source_code_link: "https://github.com/francodavid666/magicNavigationMenu",
       source_code_link2: "https://magicnavigationmenu.onrender.com",
-      
+      gif:magicNavigateMenuGif
     }
     
   ];
