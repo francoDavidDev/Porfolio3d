@@ -88,8 +88,12 @@ import travelReactGif from "./gifs/travelReactGif.gif";
 import travelWebGif from "./gifs/travelWebGif.gif";
 import travelWebReactGif from "./gifs/travelWebReactGif.gif";
 import youtubeCloneGif from "./gifs/youtubeCloneGif.gif";
+import frutoCafeGif from "./gifs/frutoCafeGif.gif";
+import sportcenterGif from "./gifs/sportcenterGif.gif";
+import bistroCafeGif from "./gifs/bistroCafeGif.gif";
+import menuPremiumGif from "./gifs/menuPremiumGif.gif";
 
-starRatingGif;
+
 
 export {
   nikeShop,
@@ -176,4 +180,8 @@ export {
   travelWebGif,
   travelWebReactGif,
   youtubeCloneGif,
+  frutoCafeGif,
+  sportcenterGif,
+  bistroCafeGif,
+  menuPremiumGif
 };

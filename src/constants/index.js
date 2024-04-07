@@ -79,6 +79,10 @@ import {
   travelWebReactGif,
   youtubeCloneGif,
   realEstateGif,
+  frutoCafeGif,
+  sportcenterGif,
+  bistroCafeGif,
+  menuPremiumGif
   } from "../assets";
   
   export const navLinks = [
@@ -307,52 +311,6 @@ import {
       source_code_link2: "https://youtube-clone-smoky-two.vercel.app/",
       gif:youtubeCloneGif
     },
-    
-    {
-      name: "Ecommerce con Django/Js",
-      description:
-        "Desarrolle un Ecommercer con Django y javascrip. Contiene Login, register, y se puede comprar sin estar loeago. Implemente la app de Paypal.",
-      tags: [
-        {
-          name: "Javascript",
-          color: "blue-text-gradient",
-        },
-      
-        {
-          name: "django",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Boostrap",
-          color: "green-text-gradient",
-        },
-      ],
-      image: ecommerceDjango ,
-      source_code_link: "https://github.com/francodavid666/ecommerceDjango2",
-      source_code_link2: "https://ecommerce1.up.railway.app",
-    },
-    {
-      name: "Gallery Photo Album Django",
-      description:
-        "Desarrolle un albun de fotos con Django. Si quieres puedes subir fotos",
-      tags: [
-       
-      
-        {
-          name: "Django",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Boostrap",
-          color: "green-text-gradient",
-        },
-      ],
-      image: galleryDjango ,
-      source_code_link: "https://github.com/francodavid666/galleryPhotoDjango",
-      source_code_link2: "https://galleryphotodjango.up.railway.app",
-      gif:galleryDjangoGif
-    },
- 
     {
       name: "Real State",
       description:
@@ -405,6 +363,90 @@ import {
       source_code_link: "https://github.com/francodavid666/starkeOficial",
       source_code_link2: "https://starkeweb.onrender.com",
       gif:starkeFitGif
+    },
+    {
+      name: "BISTRO CAFE",
+      description:
+        "Only Page para una cafeteria hecha con React",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Scroll",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React Icons",
+          color: "red-text-gradient",
+        },
+       
+      ],
+      image: '' ,
+      source_code_link: "https://github.com/francoDavidDev/bistro_restaurant",
+      source_code_link2: "https://bistro-restaurant-oficial.vercel.app/",
+      gif:  bistroCafeGif
+    },
+    {
+      name: "FITNESS SPORT",
+      description:
+        "Only Page para un gimnasio hecha con React",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Scroll",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React Icons",
+          color: "red-text-gradient",
+        },
+       
+      ],
+      image: '' ,
+      source_code_link: "https://github.com/francoDavidDev/SportCenter",
+      source_code_link2: "https://fitness-sport-oficial.vercel.app/",
+      gif:  sportcenterGif
+    },
+    {
+      name: "FRUTO CAFE",
+      description:
+        "Only Page para una cafeteria hecha con React",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind Css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Scroll",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React Icons",
+          color: "red-text-gradient",
+        },
+       
+      ],
+      image: '' ,
+      source_code_link: "https://github.com/francoDavidDev/FRUTO-CAFE",
+      source_code_link2: "https://frutocafe.vercel.app/",
+      gif:  frutoCafeGif
     },
     {
       name: "Agencia Digital",
@@ -552,6 +594,34 @@ import {
       gif:coffeeShopGif
     },
     {
+      name: "MENU APP FRONT PREMIUM",
+      description:
+        "Menu digital para cafeteria con React",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React Icons",
+          color: "red-text-gradient",
+        },
+       
+      ],
+      image: '' ,
+      source_code_link: "https://github.com/francoDavidDev/MENU_PREMIUM_FRONT",
+      source_code_link2: "https://menu-app-vw.vercel.app/",
+      gif:  menuPremiumGif
+    },
+    {
       name: "Coffee Menu #1",
       description:
         "Menu web animado Circle",
@@ -635,6 +705,51 @@ import {
       source_code_link2: "https://menu-coffee-card.vercel.app/",
       gif:''
     },
+    {
+      name: "Ecommerce con Django/Js",
+      description:
+        "Desarrolle un Ecommercer con Django y javascrip. Contiene Login, register, y se puede comprar sin estar loeago. Implemente la app de Paypal.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+      
+        {
+          name: "django",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Boostrap",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ecommerceDjango ,
+      source_code_link: "https://github.com/francodavid666/ecommerceDjango2",
+      source_code_link2: "https://ecommerce1.up.railway.app",
+    },
+    {
+      name: "Gallery Photo Album Django",
+      description:
+        "Desarrolle un albun de fotos con Django. Si quieres puedes subir fotos",
+      tags: [
+       
+      
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Boostrap",
+          color: "green-text-gradient",
+        },
+      ],
+      image: galleryDjango ,
+      source_code_link: "https://github.com/francodavid666/galleryPhotoDjango",
+      source_code_link2: "https://galleryphotodjango.up.railway.app",
+      gif:galleryDjangoGif
+    },
+ 
     {
       name: "CRUD con Django Rest Framework y React.js",
       description:
