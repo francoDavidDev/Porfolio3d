@@ -92,8 +92,7 @@ import frutoCafeGif from "./gifs/frutoCafeGif.gif";
 import sportcenterGif from "./gifs/sportcenterGif.gif";
 import bistroCafeGif from "./gifs/bistroCafeGif.gif";
 import menuPremiumGif from "./gifs/menuPremiumGif.gif";
-
-
+import iphone3dGif from "./gifs/iphone3dGif.gif";
 
 export {
   nikeShop,
@@ -183,5 +182,6 @@ export {
   frutoCafeGif,
   sportcenterGif,
   bistroCafeGif,
-  menuPremiumGif
+  menuPremiumGif,
+  iphone3dGif
 };
